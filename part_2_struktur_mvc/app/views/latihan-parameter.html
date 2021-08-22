@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>Latihan Parameter</title>
+  </head>
+  <body>
+    <h1>Kedua Parameter telah diisi, nilai tersebut adalah {{ x }} , {{ y }}</h1>
+
+    {% if x or y is None %}
+    <h1>{{ error }}</h1>
+    {% endif %}
+  </body>
+</html>
