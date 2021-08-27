@@ -1,4 +1,5 @@
 from flask import make_response, jsonify
+from json import JSONEncoder
 
 class Response(object):
     
@@ -14,6 +15,7 @@ class Response(object):
         
         self.payload = {
             "values": None,
+            "status_code": 200,
             "message": ""
         }
 

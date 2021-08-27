@@ -6,6 +6,7 @@ from app.models.todo import Todo
 from app.response import response
 from app.transformer.TodoTransformer import TodoTransformer
 
+
 class TodoController(Resource):
     def get(self):
         todos = Todo.objects(deleted_at=None).all()
