@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include 'components/head.html' %} {% block headers %} {% endblock %}
+  </head>
+
+  <body>
+    {% include 'components/navbar.html' %}
+
+    <main role="main " class="container mt-5">
+      <div class="container">
+        <h1 class="mt-5">Belajar Flask Microservice</h1>
+        <p class="lead mb-5">
+          There are a lot of problems in the world. If we don't have something that inspire us, what's the point of living?<br />
+          <small>- Algonacci</small>
+        </p>
+        <p>Kunjungi blog belajar bareng Hudya dengan akses gratis <a href="https://hudya.xyz ">disini</a>.</p>
+      </div>
+
+      {% block content %} {% endblock %}
+    </main>
+
+    {% include 'components/footer.html' %} {% include 'components/scripts.html' %} {% block scripts %}{% endblock %}
+  </body>
+</html>
