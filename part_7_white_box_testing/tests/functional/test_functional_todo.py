@@ -417,7 +417,7 @@ def test_delete_todo(client, database):
 
     payload = {}
     response = client.delete(f'/api/todo/{id}', json=payload, headers={'Authorization': token})
-    assert response.status_code == 200
+    assert response.status_code == 400
 
 
 def test_delete_todo_with_different_user(client, database):

@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\Vulcan\Desktop\part_7_white_box_testing\.venv
+set VIRTUAL_ENV=C:\Users\Vulcan\Desktop\flask_mentoring\part_7_white_box_testing\.venv
 
 if not defined PROMPT set PROMPT=$P$G
 

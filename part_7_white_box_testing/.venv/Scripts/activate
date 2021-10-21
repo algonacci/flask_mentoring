@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\Vulcan\Desktop\part_7_white_box_testing\.venv"
+VIRTUAL_ENV="C:\Users\Vulcan\Desktop\flask_mentoring\part_7_white_box_testing\.venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
